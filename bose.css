@@ -1,0 +1,432 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.top-bar-container{
+    background-color:rgb(26, 26, 26);
+    display: flex;
+}
+
+.top-bar-container .logo img{
+    height: 78px;
+    width: 78px;
+    padding: 0 0 20px 120px;
+}
+
+/*-----------TOP------------*/
+.top-bar-container .non-logo{
+    display: flex;
+    flex-direction: column;
+}
+
+.top-bar-container .non-logo .top{
+    display: flex;
+    justify-content: flex-end;
+    border:2px;
+    border-color: white;
+    margin-top: 15px;
+}
+.top-bar-container .non-logo .top ul{
+    display: flex;
+}
+.top-bar-container .non-logo .top input{
+    width: 275px;
+    height: 25px;
+    margin-left: 650px;
+    border-radius: 50px;
+    border-style: none;
+}
+
+.top-bar-container .non-logo .top ul li{
+    margin-left: 40px;
+    margin-top: 5px;
+}
+
+.top-bar-container .non-logo .top ul li a{
+    margin-left:2px;
+}
+
+
+/*---------Menu Text---------*/
+.top-bar-container .non-logo .menu-text{
+    display: flex;
+    margin-top: 30px;
+}
+
+.menu-text li:hover{
+    font-weight: bold;
+}
+
+.top-bar-container .non-logo .menu-text ul{
+    display: flex;
+    margin-left: 80px;
+}
+
+.top-bar-container .non-logo .menu-text ul li{
+    margin-right: 30px;
+    font-size: 13px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul{
+    list-style: none;
+    color: white;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    
+}
+
+.newbose{
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    width: 125px;
+    text-align: center;
+}
+
+/*-------TOP IMAGE-----------*/
+.full .first-img-container .image img{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: block;
+    
+}
+
+.full .first-img-container .image .text{
+    margin-top: -320px;
+    margin-left: 500px;
+    color: white;
+    text-align: center;
+}
+
+.full .first-img-container .image .text .title{
+    font-size: 25px;
+    padding: 15px;
+}
+
+.full .first-img-container .image .text .button{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding: 30px;
+
+}
+
+button{
+    height: 35px;
+    width: 150px;
+    border-radius: 40px;
+    border-style: none;
+    font-weight: bold;
+}
+
+.first-img-container button:hover{
+    background-color: rgb(31, 31, 31);
+    color: white;
+}
+
+/*Featured Products*/
+
+.featured-products-container{
+    padding-top: 150px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.featured-products-container .images{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    
+}
+
+.featured-products-container .images .limited-edition{
+    background-color: rgb(102, 102, 102);
+    color: white;
+    text-align: center;
+}
+
+.img1 img{
+    background-color: rgb(231, 231, 231);
+    margin: 10px 10px 0px 10px;
+}
+.img2 img{
+    background-color: rgb(231, 231, 231);
+    margin: 10px 10px 0px 10px;
+}
+.img3 img{
+    background-color: rgb(231, 231, 231);
+    margin: 10px 10px 0px 10px;
+}
+.img4 img{
+    background-color: rgb(231, 231, 231);
+    margin: 10px 10px 0px 10px;
+}
+.img1 .text{
+    margin: 0px 10px 0px;
+}
+.img2 .text{
+    margin: 0px 10px 0px;
+}
+.img3 .text{
+    margin: 0px 10px 0px;
+}
+.img4 .text{
+    margin: 0px 10px 0px;
+}
+/*---------SECOND IMAGE------------*/
+.full .second-img-container .image img{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: block;
+    padding: 0px;
+    margin-top: 80px;
+    
+}
+
+.full .second-img-container .image .text{
+    margin-top: -320px;
+    margin-left: -500px;
+    color: white;
+    text-align: center;
+}
+
+.full .second-img-container .image .text .title{
+    font-size: 25px;
+    padding: 15px;
+}
+
+.full .second-img-container .image .text .button{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding: 30px;
+}
+
+.second-img-container button:hover{
+    background-color: rgb(31, 31, 31);
+    color: white;
+}
+
+/*---------THIRD IMAGE------------*/
+.full .third-img-container .image img{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: block;
+    padding: 0px;
+    margin-top: 80px;
+}
+
+.full .third-img-container .image .text{
+    margin-top: -320px;
+    margin-left: 600px;
+    color: black;
+    text-align: center;
+}
+
+.full .third-img-container .image .text .title{
+    font-size: 25px;
+    padding: 15px;
+}
+
+.full .third-img-container .image .text .button{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding: 30px;
+
+}
+.third-img-container button{
+    background-color: rgb(31, 31, 31);
+    color: white;
+}
+.third-img-container button:hover{
+    color: rgb(31, 31, 31);
+    background-color: white;
+}
+
+/*---------FOURTH IMAGE------------*/
+.full .fourth-img-container .image img{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: block;
+    padding: 0px;
+    margin-top: 80px;
+}
+
+.full .fourth-img-container .image .text{
+    margin-top: -320px;
+    margin-left: -700px;
+    color: white;
+    text-align: center;
+}
+
+.full .fourth-img-container .image .text .title{
+    font-size: 25px;
+    padding: 15px;
+}
+
+.full .fourth-img-container .image .text .button{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding: 30px;
+
+}
+.fourth-img-container button:hover{
+    background-color: rgb(31, 31, 31);
+    color: white;
+}
+
+/*---------FIFTH IMAGE------------*/
+.full .fifth-img-container .image img{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: block;
+    padding: 0px;
+    margin-top: 70px;
+}
+
+.full .fifth-img-container .image .text{
+    margin-top: -320px;
+    margin-left: 500px;
+    color: white;
+    text-align: center;
+}
+
+.full .fifth-img-container .image .text .title{
+    font-size: 25px;
+    padding: 15px;
+}
+
+.fifth-img-container h1{
+    background-color: white;
+}
+
+.full .fifth-img-container .image .text .button{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding: 30px;
+
+}
+.fifth-img-container button:hover{
+    background-color: rgb(31, 31, 31);
+    color: white;
+}
+
+/*---------SIXTH IMAGE------------*/
+.full .sixth-img-container .image img{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: block;
+    padding: 0px;
+    margin-top: 80px;
+}
+
+.full .sixth-img-container .image .text{
+    margin-top: -320px;
+    margin-left: 500px;
+    color: white;
+    text-align: center;
+}
+
+.full .sixth-img-container .image .text .title{
+    font-size: 25px;
+    padding: 15px;
+}
+
+.full .sixth-img-container .image .text .button{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding: 30px;
+
+}
+.sixth-img-container button:hover{
+    background-color: rgb(31, 31, 31);
+    color: white;
+}
+
+/*-----------SOCIAL MEDIA-----------*/
+.connect{
+    margin-top: 58px;
+    background-color: rgb(30, 30, 30);
+    height: 100px;
+}
+
+.connect .fbyt{
+    display: flex;
+    padding-top: 45px;
+    padding-left: 150px;
+}
+
+.connect .fbyt .fb {
+    margin-right: 50px;
+}
+
+.email{
+    padding-left: 800px;
+}
+
+/*------------FOOTER------------*/
+.footer-container{
+    background-color: black;
+    color: white;
+}
+
+table{
+    padding-top: 80px;
+    padding-left: 200px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+    line-height: 1.5;
+    color: rgb(115, 115, 115);
+}
+
+table td:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+table b{
+    color:white;
+}
+
+.loc{
+    display: flex;
+    padding-left: 260px;
+    padding-bottom: 30px;
+}
+
+.loc-change{
+    color: rgb(115, 115, 115);
+}
+
+.loc-change:hover{
+    color: white;
+}
+
+.footer-logo{
+    display: flex;
+    padding-left: 100px;
+}
+
+.footer-other{
+    padding-left: 30px;
+    width: 80%;
+}
+.footer-other p{
+    padding-top: 30px;
+    color: rgb(115, 115, 115);
+}
+
